@@ -1,0 +1,17 @@
+Name,Description,Designator,Quantity,Manufacter,Part Number,Package
+
+"2.2 µF","Ceramic capacitor, 50 V, 10%","C1, C3, C5, C7","4","Yageo","CC0805KKX7R9BB225","0805"
+"10 nF","Ceramic capacitor, 250 V, 10%","C2, C4, C6, C8","4","Murata","GRM21BR72E103K","0805"
+"10 µF","Aluminum electrolytic capacitor, 50 V, 20%","C9","1","JB Capacitors","JCK1H100M063054","ECAP SMD"
+"FDC658AP","P-channel power MOSFET","DA1, DA3, DA5, DA7","4","ON Semiconductors","FDC658AP","SOT-23"
+"LM3401","Hysteretic LED driver controller","DA2, DA4, DA6, DA8","4","Texas Instruments","LM3401","VSSOP-8"
+"2 A","Surface-mount fuse, 63 V","F1, F2, F3, F4","4","Littelfuse","0466002.NR","1206"
+"33 µH","Shielded power inductor, 15%","L1, L2, L3, L4","4","Bourns","SRR1208-330YL","SMD"
+"43 kO","Chip resistor, 0.125 W","R1, R5, R9, R13","4","Yageo","RC0805JR-0743KL","0805"
+"100 kO","Chip resistor, 0.125 W","R2, R6, R10, R14","4","Yageo","RT0805BRD07100KL","0805"
+"5.6 kO","Chip resistor, 0.125 W","R3, R7, R11, R15","4","Yageo","RC0805JR-075K6L","0805"
+"0.3 O","Current-sense resistor, 1 W, 1%","R4, R8, R12, R16","4","Yageo","RL2512FK-070R3L","2512"
+"SS34","Schottky rectifier, 3 A, 40 V","VD1, VD2, VD3, VD4","4","YJ","SS34","DO-14AB"
+"WB-02","2-pin connector","XP3, XP4, XP5, XP6","4","Ruichi","WB-02","THT"
+"WK-02R","2-pin connector (socket)","XS1, XS2","2","Hsuan Mao","WK-02R","THT"
+"WB-02","2-pin connector","XS3, XS4, XS5, XS6, XS7, XS8, XS9, XS10","8","Ruichi","WB-02","THT"
