@@ -6,6 +6,12 @@ Each channel has its own LM3401 controller, external P-channel MOSFET, inductor,
 
 The repository contains the Altium Designer project, PCB views, fabrication files, BOM, and original Russian engineering documentation.
 
+## My Contribution
+
+This project is based on a board design created before my involvement. I transferred the existing design to **Altium Designer** and prepared the schematic, PCB layout, component libraries, bill of materials, and engineering documentation.
+
+My work included component selection, standardizing schematic symbols and footprints, clarifying component parameters, and aligning the schematic, PCB, and documentation. I also **personally assembled and soldered the board**.
+
 ## Block Diagram
 
 [![Four-channel block diagram](hardware/images/driver-4ch.png)](hardware/images/driver-4ch.png)
@@ -51,15 +57,17 @@ PWM commands connect to the DIM inputs. Each channel has two parallel control co
 
 The elongated PCB contains four repeated driver sections and a common power-input section. Surface-mount components form the regulation and power stages; through-hole connectors provide the supply, PWM, and LED connections.
 
-## Assembled Board
+## Assembled Board and Test Bench
 
-<!-- Uncomment after adding the photograph to hardware/images/pcb-real.jpg:
-[![Assembled Driver4CH board](hardware/images/pcb-real.jpg)](hardware/images/pcb-real.jpg)
--->
+[![Driver4CH connected to the PWM controller and an LED load](hardware/images/test-bench.jpg)](hardware/images/test-bench.jpg)
 
-> Photograph of the assembled board — to be added.
+The demonstration setup combines Driver4CH, the [PWM Controller Board](https://github.com/sovetnikovmm/pwm-controller-board), and an LED load. **All four driver channels have been checked and are operational.** Only one channel is connected to the LED load in this photograph.
 
-The board receives PWM commands from the external control panel and adjusts the brightness of the connected LED strings independently on four channels.
+The external controller sets the PWM duty cycle, and the selected driver channel supplies the corresponding current pulses to the LEDs.
+
+### Hardware and Documentation Versions
+
+The photographs show hardware that I assembled and soldered. Some photographed boards are earlier versions and may differ from the published Altium files in component placement, markings, or implementation details. The Altium files and engineering documents describe the version prepared during my work on the project.
 
 ## Bill of Materials
 
