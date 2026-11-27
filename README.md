@@ -59,7 +59,7 @@ The elongated PCB contains four repeated driver sections and a common power-inpu
 
 ## Assembled Board and Test Bench
 
-[![Driver4CH connected to the PWM controller and an LED load](hardware/images/test-bench.jpg)](hardware/images/test-bench.jpg)
+[![Driver4CH connected to the PWM controller and an LED load](hardware/images/driver4ch_pcb-real.jpg)](hardware/images/driver4ch_pcb-real.jpg)
 
 The demonstration setup combines Driver4CH, the [PWM Controller Board](https://github.com/sovetnikovmm/pwm-controller-board), and an LED load. **All four driver channels have been checked and are operational.** Only one channel is connected to the LED load in this photograph.
 
