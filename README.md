@@ -65,9 +65,12 @@ The demonstration setup combines Driver4CH, the [PWM Controller Board](https://g
 
 The external controller sets the PWM duty cycle, and the selected driver channel supplies the corresponding current pulses to the LEDs.
 
-### Hardware and Documentation Versions
+## Photographed Prototype and Design Files
 
-The photographs show hardware that I assembled and soldered. Some photographed boards are earlier versions and may differ from the published Altium files in component placement, markings, or implementation details. The Altium files and engineering documents describe the version prepared during my work on the project.
+The photograph shows a board that I assembled and soldered. The published
+Altium files reflect my work transferring and refining the existing design.
+Some components or layout details in the photographed prototype may differ
+from those files.
 
 ## Bill of Materials
 
